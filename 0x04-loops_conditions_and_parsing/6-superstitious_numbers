@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Bash script that displays numbers from 1 to 20 using while loop and:
+	# displays 4 and then bad luck from China for the 4th loop iteration
+	#displays 9 and then bad luck from Japan for the 9th loop iteration
+	#displays 17 and then bad luck from Italy for the 17th loop iteration
+# This script is displaying numbers form 1 to 20 times
+
+
+index_count=0
+
+while [ $index_count -le 19 ]
+do
+	echo $index_count
+	case $index_count in
+		3)
+			echo "bad luck from China"
+			;;
+		8)
+			echo "bad luck from Japan"
+			;;
+		16)
+			echo "bad luck from Italy"
+			;;
+		*)
+	esac
+
+	(( index_count++ ))
+done
+
