@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Bash script that displays Best School 10 times using until loop.
+# This script is displaying "Best School" 10 times
+
+
+index_count=0
+
+while [ $index_count -le 9 ]
+do
+	if [ $index_count -eq 8 ]
+	then
+		echo -e "Best School\nHi"
+	else
+		echo "Best School"
+	fi
+	(( index_count++ ))
+done
+
