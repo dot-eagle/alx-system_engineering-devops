@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that kills 7-highlander process.
+
+
+pkill -f 7-highlander
+
+## 4-to_infinity_and_beyond
