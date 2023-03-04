@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Bash script that configures an Ubuntu server's local host and facebook.com
 
 # + localhost resolves to 127.0.0.2
