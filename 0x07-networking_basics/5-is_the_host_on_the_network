@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This script send ICMP message to the IP
 
 # + address passed as argument to the program
